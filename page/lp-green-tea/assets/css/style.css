@@ -1,0 +1,209 @@
+@import "https://unpkg.com/ress/dist/ress.min.css";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  color: #fff;
+  font-family: "Noto Serif JP",serif;
+  font-size: 1.6em;
+}
+
+
+header {
+  background: #4b6e2d;
+  padding: 1rem 0;
+}
+header h1 {
+  text-align: center;
+}
+header .logo {
+  width: 10rem;
+}
+
+
+section {
+  padding: 10rem 0;
+  text-align: center;
+  background: #212121;
+}
+section h2 , section p {
+  text-shadow: 0.1rem 0.1rem 0.4rem #212121;
+}
+section h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+section h2 .en {
+  display: block;
+  font-size: 0.6em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+section p {
+  line-height: 3;
+}
+
+
+.btn_detail {
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 14em;
+  margin: 6rem auto 0;
+  padding: 1em 0;
+  border: 0.1rem solid white;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  transition: 0.3s all;
+}
+.btn_detail:hover {
+  background: white;
+  color: #4b6e2d;
+}
+
+
+#first-view {
+  height: 80vh;
+  background: url(../img/facebook_1200x630.png) center/cover no-repeat;
+  position: relative;
+}
+#first-view h2 {
+  position: absolute;
+  top: 4em;
+  left: 10%;
+  font-family: "Shippori Mincho",serif;
+  color: #212121;
+  font-size: 4rem;
+  text-shadow: none;
+}
+
+
+#about {
+  background-image: url(../img/sainokawara2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: #444;
+}
+#about .btn_detail {
+  margin-top: 10rem;
+}
+
+
+#products {
+  width: 50%;
+  position: relative;
+  background: url(../img/bg_umaemon.svg) center/40% no-repeat #62893a;
+}
+#products::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/roten-2.webp)center/cover no-repeat;
+}
+
+
+#shop-event {
+  background: url(https://source.unsplash.com/UgojrqCaNu0/)center/cover no-repeat;
+}
+#shop-event .btn_detail {
+  margin-top: 30rem;
+}
+
+
+footer {
+  background: #4b6e2d;
+  padding: 2rem 0;
+  text-align: center;
+}
+body {
+  background-color: #f0e6d2;
+  /* 温泉風の背景色 */
+  font-family: 'Noto Serif JP', serif;
+  /* 温泉風のフォント */
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+header {
+  background-color: #ffcc66;
+  /* 温泉風のヘッダー背景色 */
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  background-color: #ffeedd;
+  /* 温泉風のセクション背景色 */
+  border: 2px solid #ffcc66;
+  /* セクションの境界線 */
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.en {
+  color: #ff3333;
+  /* 強調カラー */
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.btn_detail {
+  display: block;
+  background-color: #ff3333;
+  /* ボタンの背景色 */
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn_detail:hover {
+  background-color: #ff6666;
+  /* ホバー時のボタンの背景色 */
+}
+
+footer {
+  text-align: center;
+  background-color: #ffcc66;
+  /* フッター背景色 */
+  padding: 0.5rem 0;
+}
+
+.copyright {
+  font-size: 14px;
+}
